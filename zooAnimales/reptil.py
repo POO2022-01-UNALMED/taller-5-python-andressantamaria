@@ -27,7 +27,7 @@ class Reptil(Animal):
         return iguana
 
     @classmethod
-    def crearIguana(cls, nombre, edad, genero):
+    def crearSerpiente(cls, nombre, edad, genero):
         serpiente = Reptil(nombre, edad, "jungla", genero, "blanco", 1)
         Reptil._serpientes += 1
         return serpiente
